@@ -12,7 +12,7 @@ from pymongo import MongoClient
 
 # Initialize the Dash app with Bootstrap styles
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
-#server = app.server
+server = app.server
 # Define the layout for the home page
 home_layout = home.home_layout
 
