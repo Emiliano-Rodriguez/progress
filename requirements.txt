@@ -2,3 +2,4 @@ dash
 pandas
 pymongo
 python-dotenv
+gunicorn
